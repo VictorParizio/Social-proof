@@ -1,0 +1,111 @@
+.page {
+    background-color: var(--bg-page);
+    height: auto;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px 0;
+}
+
+.page .container .info {
+    width: 360px;
+}
+
+.page .container .info .title {
+    font-size: 4.5rem;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.page .container .info .description {
+    line-height: 20px;
+}
+
+.page .container .avaliacao .rank {
+    background-color: var(--contraste);
+    width: 360px;
+    margin: 13px 0;
+    padding: 13px 0;
+    border-radius: 7px;
+}
+
+.page .container .avaliacao .rank .conceito {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.page .container .avaliacao .rank .conceito::before {
+    content: '';
+    background: url(../images/icon-star.svg) space;
+    display: inline-block;
+    width: 100px;
+    height: 17px;
+    margin: 0 25px;
+}
+
+.page .container .cliente {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 45px 0 15px;
+}
+
+.page .container .cliente .card {
+    background-color: var(--base);
+    color: var(--contraste);
+    width: 280px;
+    height: 190px;
+    padding: 28px;
+    border-radius: 7px;
+}
+
+.page .container .cliente .card p {
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.page .container .cliente .card .perfil {
+    display: flex;
+    font-weight: 700;
+    gap: 20px;
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+.page .container .cliente .card .foto {
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+}
+
+.page .container .cliente .card .perfil .verificado {
+    color: var(--destaque);
+    font-weight: 500;
+}
+
+.attribution,
+.attribution a {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.attribution a {
+    color: var(--destaque);
+    transition: 0.2s ease-in-out;
+}
+
+.attribution a:hover {
+    font-weight: 700;
+}

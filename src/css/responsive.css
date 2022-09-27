@@ -1,0 +1,32 @@
+@media (max-width: 700px) {
+    .page .container {
+        padding: 30px 20px 0;
+        gap: 20px;
+    }
+
+    .page .container .info,
+    .page .container .avaliacao .rank,
+    .page .container .cliente .card {
+        width: 320px;
+        text-align: center;
+    }
+
+    .page .container .info .title {
+        font-size: 4rem;
+    }
+
+    .page .container .avaliacao .rank .conceito {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .page .container .cliente {
+        margin: 0;
+    }
+
+    .attribution,
+    .attribution a {
+        margin-top: 15px;
+        font-size: 1.2rem;
+    }
+}

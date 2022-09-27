@@ -1,0 +1,13 @@
+html{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 62.5%;
+    font-weight: 400;
+    color: var(--base);
+
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    font-size: 1.5rem;
+}
